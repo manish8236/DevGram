@@ -1,7 +1,3 @@
-![webapp](https://user-images.githubusercontent.com/40785306/58166115-bedbc500-7ca6-11e9-97a5-83d72aea903c.png)
-
-<br>
-
 # `DevGram`
 Social platform for developers made using MERN stack. <br>
 <br>
@@ -10,6 +6,8 @@ Create profile with personal and professional details.<br>
 Create , Like and unlike Posts made by other developers.<br>
 View Profiles of all the registered developers.<br>
 Good UI design.<br>
+
+![webapp](https://user-images.githubusercontent.com/40785306/58166115-bedbc500-7ca6-11e9-97a5-83d72aea903c.png)
 
 # `Steps` <br>
 1. Run "npm install" on root folder and client folder.<br>
