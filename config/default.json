@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://Manish:Manish82@libraryapp-xnsj9.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "secret",
+  "githubClientId": "3fe074d88550c64b8480",
+  "githubSecret": "a202c24ec953c12ce367c6662f8f0f916b7d246e"
+}
