@@ -2,23 +2,13 @@ const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcryptjs");
 const auth = require("../../middleware/auth");
-const crypto = require("crypto");
 const jwt = require("jsonwebtoken");
 const config = require("config");
-const nodemailer = require("nodemailer");
-const sendgridTransport = require("nodemailer-sendgrid-transport");
+
 const { check, validationResult } = require("express-validator/check");
 
 const User = require("../../models/User");
 
-const transporter = nodemailer.createTransport(
-  sendgridTransport({
-    auth: {
-      api_key:
-        "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"
-    }
-  })
-);
 // @route    GET api/auth
 // @desc     Test route
 // @access   Public
@@ -81,14 +71,6 @@ router.post(
           res.json({ token });
         }
       );
-      await (result => {
-        return transporter.sendMail({
-          to: email,
-          from: "Devgram@dev.com",
-          subject: "Signup succeeded!",
-          html: "<h1>You successfully signed up!</h1>"
-        });
-      });
     } catch (err) {
       console.error(err.message);
       res.status(500).send("Server error");
