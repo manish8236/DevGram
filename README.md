@@ -1,3 +1,7 @@
+![webapp](https://user-images.githubusercontent.com/40785306/58166115-bedbc500-7ca6-11e9-97a5-83d72aea903c.png)
+
+<br>
+
 # `DevGram`
 Social platform for developers made using MERN stack. <br>
 <br>
