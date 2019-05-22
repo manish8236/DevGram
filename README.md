@@ -1,15 +1,15 @@
-# DevGram
-Social platform for developers made using MERN stack.
+# `DevGram`
+Social platform for developers made using MERN stack. <br>
+<br>
+Developers can Register/login.<br>
+Create profile with personal and professional details.<br>
+Create , Like and unlike Posts made by other developers.<br>
+View Profiles of all the registered developers.<br>
+Good UI design.<br>
 
-Developers can Register/login.
-Create profile with personal and professional details.
-Create , Like and unlike Posts made by other developers.
-View Profiles of all the registered developers.
-Good UI design.
-
-# Steps 
-1. Run "npm install" on root folder and client folder.
-2. Edit the config/default.json file to put your mongoDB details and save.
-3. Run "npm run dev" in root folder and the project should run.
-
+# `Steps` <br>
+1. Run "npm install" on root folder and client folder.<br>
+2. Edit the config/default.json file to put your mongoDB details and save.<br>
+3. Run "npm run dev" in root folder and the project should run.<br>
+<br>
 *Github repo feature still under work.*
