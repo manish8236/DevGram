@@ -1,2 +1,2 @@
-# DevGram
-A social network for developers
+node_modules/
+config/production.json

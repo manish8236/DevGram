@@ -1,0 +1,65 @@
+body {
+  /* background-image: radial-gradient(
+    circle,
+    #cfcfcf,
+    #bcb9bc,
+    #aba3a8,
+    #9c8e91,
+    #8c7979
+  ); */
+
+  /* background-image: radial-gradient(
+    circle,
+    #e7edf6,
+    #e3f2f7,
+    #e4f5f4,
+    #eaf8ef,
+    #f5f9eb
+  ); */
+
+  background-image: radial-gradient(
+    circle,
+    #f9f1f5,
+    #f7f0f5,
+    #f4f0f5,
+    #f2f0f5,
+    #f0eff4,
+    #ecedf2,
+    #e9ecf0,
+    #e6eaed,
+    #e2e6e8,
+    #dee3e3,
+    #dbdfdf,
+    #d8dbda
+  );
+}
+.text-3d {
+  text-transform: uppercase;
+  font-size: 100px;
+  text-align: center;
+  color: #eee;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 1px 0 rgb(190, 190, 190), 0 2px 0 rgb(185, 185, 185),
+    0 3px 0 rgb(180, 180, 180), 0 4px 0 rgb(175, 175, 175),
+    0 5px 0 rgb(170, 170, 170), 0 6px 0 rgb(165, 165, 165),
+    0 7px 0 rgb(160, 160, 160), 0 1px 5px rgba(0, 0, 0, 0.05),
+    0 3px 5px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.15),
+    0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.text-3d:hover {
+  text-shadow: 0 1px 0 rgb(190, 190, 190), 0 2px 0 rgb(185, 185, 185),
+    0 3px 0 rgb(180, 180, 180), 0 4px 0 rgb(175, 175, 175),
+    0 5px 0 rgb(170, 170, 170), 0 6px 0 rgb(165, 165, 165),
+    0 7px 0 rgb(160, 160, 160), 0 8px 0 rgb(155, 155, 155),
+    0 9px 0 rgb(150, 150, 150), 0 1px 5px rgba(0, 0, 0, 0.05),
+    0 5px 5px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.15),
+    0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.25);
+  transform: translate(-51%, -51%);
+  transition: all 0.3s ease-in-out;
+}
